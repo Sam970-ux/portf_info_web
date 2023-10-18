@@ -1,0 +1,17 @@
+doctype html
+html
+	head
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		
+		title MY PORTFOLIO
+		block style
+	body
+		nav#navbar.flex_align
+			ul.nav_ul.flex
+				li #[a(href="/") HOME] 
+				li #[a(href="/logos") LOGOS] 
+				li #[a(href="/webSites") PROJECTS]
+		block content
+
+		block scripts
+			script(src='../static/index.js')
